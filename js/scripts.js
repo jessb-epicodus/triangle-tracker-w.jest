@@ -12,6 +12,12 @@ $(document).ready(function() {
     
     if ((side1 === side2) && (side2 === side3)) {
     $("#equilateral").show();
+    } else if ((side1 + side2) <= (side3)) {
+    $("#not-triangle").show();
+    } else if ((side1 + side3) <= (side2)) {
+    $("#not-triangle").show();
+    } else if ((side2 + side3) <= (side1)) {
+    $("#not-triangle").show();
     } else if ((side1 === side2) && (side1 !== side3)) {
     $("#isosceles").show();
     } else if ((side2 === side3) && (side2 !== side1)) { 
@@ -20,7 +26,6 @@ $(document).ready(function() {
     $("#isosceles").show();
     } else if ((side1 !== side2 || side3) && (side2 !== side3)) {
     $("#scalene").show();
-    }
-
+    } 
   });
 });
