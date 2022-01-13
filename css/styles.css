@@ -1,0 +1,7 @@
+.btn-dark {
+  display: block;
+}
+
+#equilateral, #isosceles, #scalene, #not-triangle {
+  display: none;
+}
