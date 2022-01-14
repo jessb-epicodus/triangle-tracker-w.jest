@@ -9,6 +9,7 @@ $(document).ready(function() {
     $("#isosceles").hide();
     $("#scalene").hide();
     $("#not-triangle").hide();
+    $(".invalid-feedback").hide();
     
     if ((side1 === side2) && (side2 === side3)) {
     $("#equilateral").show();
@@ -26,6 +27,8 @@ $(document).ready(function() {
     $("#isosceles").show();
     } else if ((side1 !== side2 || side3) && (side2 !== side3)) {
     $("#scalene").show();
-    } 
+    } else if (side1 || side2 || side3 === null) {
+    $(".invalid-feedback").show();
+    }
   });
 });

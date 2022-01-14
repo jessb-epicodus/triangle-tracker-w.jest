@@ -5,3 +5,7 @@
 #equilateral, #isosceles, #scalene, #not-triangle {
   display: none;
 }
+
+.invalid-feedback {
+  display: none;
+}
