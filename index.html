@@ -9,30 +9,39 @@
 </head>
 <body>
   <h1>Triangle Tracker</h1>
-  <form id="triangle">
-    <label>Enter length of side one:</label>
-    <input id="side1">
-    <div class="invalid-feedback"><p>please enter a whole number</p></div>
-    <label>Enter length of side two:</label>
-    <input id="side2">
-    <div class="invalid-feedback"><p>please enter a whole number</p></div>
-    <label>Enter length of side three:</label>
-    <input id="side3">
-    <div class="invalid-feedback"><p>please enter a whole number</p></div>
-    <button type="submit" class="btn-dark">submit</button>
-  </form>
+  <div class="container">
+    <form id="triangle">
+    
+      <label>ENTER LENGTH OF SIDE ONE:</label>
+      <input id="side1" class="form-control">
 
-  <div id="equilateral">
-    <p>Your triangle is an equilateral.</p>
+      <label>ENTER LENGTH OF SIDE TWO:</label>
+      <input id="side2" class="form-control">
+
+      <label>ENTER LENGTH OF SIDE THREE:</label>
+      <input id="side3" class="form-control">
+
+      <button type="submit" class="btn-dark">SUBMIT</button>
+
+    </form>
   </div>
-  <div id="isosceles">
-    <p>Your triangle is an isosceles.</p>
-  </div>
-  <div id="scalene">
-    <p>Your triangle is a scalene.</p>
-  </div>
-  <div id="not-triangle">
-    <p>This is not a triangle.</p>
+
+  <div class="container">
+    <div id="equilateral">
+      <p>EQUILATERAL!</p>
+    </div>
+    <div id="isosceles">
+      <p>ISOSCELES!</p>
+    </div>
+    <div id="scalene">
+      <p>SCALENE!</p>
+    </div>
+    <div id="not-triangle">
+      <p>NOT A TRIANGLE!</p>
+    </div>
+    <div id="invalid">
+      <p>PLEASE FILL IN ALL FIELDS!</p>
+    </div>
   </div>
 
 </body>
