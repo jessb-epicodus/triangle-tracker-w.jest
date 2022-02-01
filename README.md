@@ -1,6 +1,6 @@
 # Triangle Tracker
 
-#### By Jase Seeley and Jessica Baker
+#### By Jase Seeley, Jessica Baker, Mikah Mathews & Jack Jones
 
 #### Find out what type of triangle it is.
 
@@ -33,4 +33,4 @@ Enter in the length of each triangle side in the provided fields and click submi
 
 MIT
 
-Copyright (c) 2022 Jase Seeley, Jessica Baker
+Copyright (c) 2022 Jase Seeley, Jessica Baker, Mikah Mathews & Jack Jones
