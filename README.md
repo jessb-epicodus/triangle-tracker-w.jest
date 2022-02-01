@@ -11,6 +11,9 @@
 * Bootstrap
 * JavaScript
 * jQuery
+* node
+* webpack
+* Jests
 
 ## Description
 
